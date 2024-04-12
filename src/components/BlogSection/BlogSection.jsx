@@ -45,8 +45,8 @@ function BlogSection() {
     </div>
 
     <div className="row">
-      {blogPosts.map((post) => (
-        <Blog id={post.id} image={post.image} title={post.title} author={post.author} date={post.date} />
+      {blogPosts.map((post,i) => (
+        <Blog key={i} id={post.id} image={post.image} title={post.title} author={post.author} date={post.date} />
       ))}
     </div>
   </div>

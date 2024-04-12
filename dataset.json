@@ -1,0 +1,1053 @@
+[
+    {
+      "user": {
+        "id": "user123",
+        "age": 28,
+        "gender": "male",
+        "location": "City A"
+      },
+      "session": {
+        "id": "session456",
+        "device_type": "desktop",
+        "browser": "Chrome"
+      },
+      "website_interaction": {
+        "pages_viewed": ["homepage", "product_page", "cart"],
+        "time_spent_on_each_page": [120, 60, 90],
+        "products_added_to_cart": 3,
+        "cart_value": 150
+      },
+      "payment_page_interaction": {
+        "time_spent_on_page": 45,
+        "form_fields_filled": 2,
+        "payment_method": "credit_card",
+        "error_messages": 0
+      },
+      "reasons_for_abandonment": {
+        "technical_issues": false,
+        "confusing_process": false,
+        "unexpected_costs": false,
+        "security_concerns": false,
+        "payment_method_issues": false
+      },
+      "external_factors": {
+        "date_time": "2024-01-31T15:30:00",
+        "special_promotions": true,
+        "competitor_promotions": false
+      },
+      "customer_feedback": "Smooth process, but decided to check other options.",
+      "outcome": {
+        "completed_purchase": false,
+        "reason_not_completed": "Other"
+      }
+    },
+    {
+        "user": {
+          "id": "user456",
+          "age": 35,
+          "gender": "female",
+          "location": "City B"
+        },
+        "session": {
+          "id": "session789",
+          "device_type": "mobile",
+          "browser": "Safari"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [90, 50, 75],
+          "products_added_to_cart": 2,
+          "cart_value": 100
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 30,
+          "form_fields_filled": 1,
+          "payment_method": "paypal",
+          "error_messages": 1
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": true,
+          "confusing_process": false,
+          "unexpected_costs": false,
+          "security_concerns": false,
+          "payment_method_issues": true
+        },
+        "external_factors": {
+          "date_time": "2024-01-31T16:45:00",
+          "special_promotions": false,
+          "competitor_promotions": true
+        },
+        "customer_feedback": "Encountered technical issues with payment. Will try again later.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Technical Issues"
+        }
+      },
+      {
+        "user": {
+          "id": "user789",
+          "age": 42,
+          "gender": "male",
+          "location": "City C"
+        },
+        "session": {
+          "id": "session012",
+          "device_type": "tablet",
+          "browser": "Firefox"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [100, 70, 80],
+          "products_added_to_cart": 4,
+          "cart_value": 200
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 40,
+          "form_fields_filled": 3,
+          "payment_method": "credit_card",
+          "error_messages": 0
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": true,
+          "unexpected_costs": false,
+          "security_concerns": false,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-01-31T17:15:00",
+          "special_promotions": true,
+          "competitor_promotions": false
+        },
+        "customer_feedback": "Found the process confusing. Considering alternatives.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Confusing Process"
+        }
+      },
+      {
+        "user": {
+          "id": "user789",
+          "age": 30,
+          "gender": "female",
+          "location": "City C"
+        },
+        "session": {
+          "id": "session123",
+          "device_type": "mobile",
+          "browser": "Firefox"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [80, 45, 60],
+          "products_added_to_cart": 2,
+          "cart_value": 80
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 25,
+          "form_fields_filled": 1,
+          "payment_method": "debit_card",
+          "error_messages": 1
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": true,
+          "confusing_process": false,
+          "unexpected_costs": false,
+          "security_concerns": false,
+          "payment_method_issues": true
+        },
+        "external_factors": {
+          "date_time": "2024-01-31T18:00:00",
+          "special_promotions": true,
+          "competitor_promotions": false
+        },
+        "customer_feedback": "Encountered technical issues during payment. Will try again later.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Technical Issues"
+        }
+      },
+      {
+        "user": {
+          "id": "user234",
+          "age": 22,
+          "gender": "male",
+          "location": "City B"
+        },
+        "session": {
+          "id": "session567",
+          "device_type": "desktop",
+          "browser": "Chrome"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [100, 55, 70],
+          "products_added_to_cart": 1,
+          "cart_value": 50
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 35,
+          "form_fields_filled": 2,
+          "payment_method": "paypal",
+          "error_messages": 0
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": true,
+          "unexpected_costs": false,
+          "security_concerns": false,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-01-31T19:30:00",
+          "special_promotions": false,
+          "competitor_promotions": true
+        },
+        "customer_feedback": "Process seemed confusing. Considering other options.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Confusing Process"
+        }
+      },
+      {
+        "user": {
+          "id": "user567",
+          "age": 45,
+          "gender": "female",
+          "location": "City D"
+        },
+        "session": {
+          "id": "session890",
+          "device_type": "tablet",
+          "browser": "Safari"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [110, 70, 85],
+          "products_added_to_cart": 5,
+          "cart_value": 250
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 40,
+          "form_fields_filled": 3,
+          "payment_method": "credit_card",
+          "error_messages": 1
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": false,
+          "unexpected_costs": true,
+          "security_concerns": false,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-01-31T20:15:00",
+          "special_promotions": false,
+          "competitor_promotions": true
+        },
+        "customer_feedback": "Decided not to proceed due to unexpected costs. Will explore other options.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Unexpected Costs"
+        }
+      },
+      {
+        "user": {
+          "id": "user012",
+          "age": 32,
+          "gender": "male",
+          "location": "City A"
+        },
+        "session": {
+          "id": "session345",
+          "device_type": "desktop",
+          "browser": "Firefox"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [95, 60, 75],
+          "products_added_to_cart": 3,
+          "cart_value": 120
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 30,
+          "form_fields_filled": 2,
+          "payment_method": "debit_card",
+          "error_messages": 0
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": false,
+          "unexpected_costs": false,
+          "security_concerns": true,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-01-31T21:00:00",
+          "special_promotions": true,
+          "competitor_promotions": false
+        },
+        "customer_feedback": "Concerned about the security of the payment process. Decided not to proceed.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Security Concerns"
+        }
+      },
+      {
+        "user": {
+          "id": "john_doe_123",
+          "age": 28,
+          "gender": "male",
+          "location": "New York"
+        },
+        "session": {
+          "id": "session456",
+          "device_type": "desktop",
+          "browser": "Chrome"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [120, 60, 90],
+          "products_added_to_cart": 3,
+          "cart_value": 150
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 45,
+          "form_fields_filled": 2,
+          "payment_method": "credit_card",
+          "error_messages": 0
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": false,
+          "unexpected_costs": false,
+          "security_concerns": false,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-01-31T15:30:00",
+          "special_promotions": true,
+          "competitor_promotions": false
+        },
+        "customer_feedback": "Smooth process, but decided to check other options.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Other"
+        }
+      },
+      {
+        "user": {
+          "id": "emma_smith_789",
+          "age": 35,
+          "gender": "female",
+          "location": "Los Angeles"
+        },
+        "session": {
+          "id": "session789",
+          "device_type": "mobile",
+          "browser": "Safari"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [90, 50, 75],
+          "products_added_to_cart": 2,
+          "cart_value": 100
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 30,
+          "form_fields_filled": 1,
+          "payment_method": "paypal",
+          "error_messages": 1
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": true,
+          "confusing_process": false,
+          "unexpected_costs": false,
+          "security_concerns": false,
+          "payment_method_issues": true
+        },
+        "external_factors": {
+          "date_time": "2024-01-31T16:45:00",
+          "special_promotions": false,
+          "competitor_promotions": true
+        },
+        "customer_feedback": "Encountered technical issues with payment. Will try again later.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Technical Issues"
+        }
+      },
+      {
+        "user": {
+          "id": "alice.jones",
+          "age": 32,
+          "gender": "female",
+          "location": "Chicago"
+        },
+        "session": {
+          "id": "session234",
+          "device_type": "mobile",
+          "browser": "Firefox"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [80, 45, 60],
+          "products_added_to_cart": 2,
+          "cart_value": 80
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 25,
+          "form_fields_filled": 1,
+          "payment_method": "debit_card",
+          "error_messages": 1
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": true,
+          "confusing_process": false,
+          "unexpected_costs": false,
+          "security_concerns": false,
+          "payment_method_issues": true
+        },
+        "external_factors": {
+          "date_time": "2024-01-31T18:00:00",
+          "special_promotions": true,
+          "competitor_promotions": false
+        },
+        "customer_feedback": "Encountered technical issues during payment. Will try again later.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Technical Issues"
+        }
+      },
+      {
+        "user": {
+          "id": "michael.smith",
+          "age": 28,
+          "gender": "male",
+          "location": "Seattle"
+        },
+        "session": {
+          "id": "session567",
+          "device_type": "desktop",
+          "browser": "Chrome"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [100, 55, 70],
+          "products_added_to_cart": 1,
+          "cart_value": 50
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 35,
+          "form_fields_filled": 2,
+          "payment_method": "paypal",
+          "error_messages": 0
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": true,
+          "unexpected_costs": false,
+          "security_concerns": false,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-01-31T19:30:00",
+          "special_promotions": false,
+          "competitor_promotions": true
+        },
+        "customer_feedback": "Process seemed confusing. Considering other options.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Confusing Process"
+        }
+      },
+      {
+        "user": {
+          "id": "sara_wilson",
+          "age": 38,
+          "gender": "female",
+          "location": "Houston"
+        },
+        "session": {
+          "id": "session890",
+          "device_type": "tablet",
+          "browser": "Safari"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [110, 70, 85],
+          "products_added_to_cart": 5,
+          "cart_value": 250
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 40,
+          "form_fields_filled": 3,
+          "payment_method": "credit_card",
+          "error_messages": 1
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": false,
+          "unexpected_costs": true,
+          "security_concerns": false,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-01-31T20:15:00",
+          "special_promotions": false,
+          "competitor_promotions": true
+        },
+        "customer_feedback": "Decided not to proceed due to unexpected costs. Will explore other options.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Unexpected Costs"
+        }
+      },
+      {
+        "user": {
+          "id": "alex_jenkins",
+          "age": 27,
+          "gender": "male",
+          "location": "Miami"
+        },
+        "session": {
+          "id": "session345",
+          "device_type": "desktop",
+          "browser": "Firefox"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [95, 60, 75],
+          "products_added_to_cart": 3,
+          "cart_value": 120
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 30,
+          "form_fields_filled": 2,
+          "payment_method": "debit_card",
+          "error_messages": 0
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": false,
+          "unexpected_costs": false,
+          "security_concerns": true,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-01-31T21:00:00",
+          "special_promotions": true,
+          "competitor_promotions": false
+        },
+        "customer_feedback": "Concerned about the security of the payment process. Decided not to proceed.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Security Concerns"
+        }
+      },
+      {
+        "user": {
+          "id": "david_thompson",
+          "age": 45,
+          "gender": "male",
+          "location": "Atlanta"
+        },
+        "session": {
+          "id": "session678",
+          "device_type": "mobile",
+          "browser": "Chrome"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [100, 50, 80],
+          "products_added_to_cart": 4,
+          "cart_value": 180
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 40,
+          "form_fields_filled": 3,
+          "payment_method": "credit_card",
+          "error_messages": 0
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": false,
+          "unexpected_costs": false,
+          "security_concerns": false,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-02-01T09:30:00",
+          "special_promotions": true,
+          "competitor_promotions": false
+        },
+        "customer_feedback": "Had to step away. Will complete the purchase later.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Other"
+        }
+      },
+      {
+        "user": {
+          "id": "emily_davis",
+          "age": 33,
+          "gender": "female",
+          "location": "San Francisco"
+        },
+        "session": {
+          "id": "session901",
+          "device_type": "tablet",
+          "browser": "Safari"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [120, 65, 90],
+          "products_added_to_cart": 2,
+          "cart_value": 120
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 35,
+          "form_fields_filled": 2,
+          "payment_method": "paypal",
+          "error_messages": 0
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": false,
+          "unexpected_costs": false,
+          "security_concerns": false,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-02-01T10:45:00",
+          "special_promotions": false,
+          "competitor_promotions": true
+        },
+        "customer_feedback": "Found a better deal elsewhere. Will explore other options.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Competitor Promotion"
+        }
+      },
+      {
+        "user": {
+          "id": "lisa.jenkins",
+          "age": 28,
+          "gender": "female",
+          "location": "Dallas"
+        },
+        "session": {
+          "id": "session345",
+          "device_type": "desktop",
+          "browser": "Firefox"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [90, 55, 70],
+          "products_added_to_cart": 3,
+          "cart_value": 120
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 30,
+          "form_fields_filled": 2,
+          "payment_method": "debit_card",
+          "error_messages": 0
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": false,
+          "unexpected_costs": false,
+          "security_concerns": true,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-02-01T14:00:00",
+          "special_promotions": true,
+          "competitor_promotions": false
+        },
+        "customer_feedback": "Concerned about the security of the payment process. Decided not to proceed.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Security Concerns"
+        }
+      },
+      {
+        "user": {
+          "id": "ryan.miller",
+          "age": 35,
+          "gender": "male",
+          "location": "Denver"
+        },
+        "session": {
+          "id": "session678",
+          "device_type": "mobile",
+          "browser": "Chrome"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [110, 70, 85],
+          "products_added_to_cart": 5,
+          "cart_value": 250
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 40,
+          "form_fields_filled": 3,
+          "payment_method": "credit_card",
+          "error_messages": 1
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": false,
+          "unexpected_costs": true,
+          "security_concerns": false,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-02-01T15:30:00",
+          "special_promotions": false,
+          "competitor_promotions": true
+        },
+        "customer_feedback": "Decided not to proceed due to unexpected costs. Will explore other options.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Unexpected Costs"
+        }
+      },
+      {
+        "user": {
+          "id": "natalie.smith",
+          "age": 30,
+          "gender": "female",
+          "location": "Miami"
+        },
+        "session": {
+          "id": "session901",
+          "device_type": "tablet",
+          "browser": "Safari"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [120, 65, 90],
+          "products_added_to_cart": 2,
+          "cart_value": 120
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 35,
+          "form_fields_filled": 2,
+          "payment_method": "paypal",
+          "error_messages": 0
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": false,
+          "unexpected_costs": false,
+          "security_concerns": false,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-02-01T17:15:00",
+          "special_promotions": false,
+          "competitor_promotions": true
+        },
+        "customer_feedback": "Found a better deal elsewhere. Will explore other options.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Competitor Promotion"
+        }
+      },
+      {
+        "user": {
+          "id": "steven_wong",
+          "age": 32,
+          "gender": "male",
+          "location": "San Francisco"
+        },
+        "session": {
+          "id": "session345",
+          "device_type": "desktop",
+          "browser": "Firefox"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [95, 60, 75],
+          "products_added_to_cart": 3,
+          "cart_value": 120
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 30,
+          "form_fields_filled": 2,
+          "payment_method": "debit_card",
+          "error_messages": 0
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": false,
+          "unexpected_costs": false,
+          "security_concerns": true,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-02-01T18:00:00",
+          "special_promotions": true,
+          "competitor_promotions": false
+        },
+        "customer_feedback": "Concerned about the security of the payment process. Decided not to proceed.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Security Concerns"
+        }
+      },
+      {
+        "user": {
+          "id": "olivia_martin",
+          "age": 28,
+          "gender": "female",
+          "location": "New York"
+        },
+        "session": {
+          "id": "session678",
+          "device_type": "mobile",
+          "browser": "Chrome"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [100, 50, 80],
+          "products_added_to_cart": 4,
+          "cart_value": 180
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 40,
+          "form_fields_filled": 3,
+          "payment_method": "credit_card",
+          "error_messages": 0
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": false,
+          "unexpected_costs": false,
+          "security_concerns": false,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-02-01T20:30:00",
+          "special_promotions": true,
+          "competitor_promotions": false
+        },
+        "customer_feedback": "Had to step away. Will complete the purchase later.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Other"
+        }
+      },
+      {
+        "user": {
+          "id": "nathan_anderson",
+          "age": 35,
+          "gender": "male",
+          "location": "Chicago"
+        },
+        "session": {
+          "id": "session901",
+          "device_type": "desktop",
+          "browser": "Firefox"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [120, 65, 90],
+          "products_added_to_cart": 2,
+          "cart_value": 120
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 35,
+          "form_fields_filled": 2,
+          "payment_method": "paypal",
+          "error_messages": 0
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": false,
+          "unexpected_costs": false,
+          "security_concerns": false,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-02-01T21:45:00",
+          "special_promotions": false,
+          "competitor_promotions": true
+        },
+        "customer_feedback": "Found a better deal elsewhere. Will explore other options.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Competitor Promotion"
+        }
+      },
+      {
+        "user": {
+          "id": "caroline_wells",
+          "age": 28,
+          "gender": "female",
+          "location": "Los Angeles"
+        },
+        "session": {
+          "id": "session345",
+          "device_type": "desktop",
+          "browser": "Chrome"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [90, 55, 70],
+          "products_added_to_cart": 3,
+          "cart_value": 120
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 30,
+          "form_fields_filled": 2,
+          "payment_method": "debit_card",
+          "error_messages": 0
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": false,
+          "unexpected_costs": false,
+          "security_concerns": true,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-02-02T09:15:00",
+          "special_promotions": true,
+          "competitor_promotions": false
+        },
+        "customer_feedback": "Concerned about the security of the payment process. Decided not to proceed.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Security Concerns"
+        }
+      },
+      {
+        "user": {
+          "id": "jason_morris",
+          "age": 32,
+          "gender": "male",
+          "location": "San Francisco"
+        },
+        "session": {
+          "id": "session678",
+          "device_type": "mobile",
+          "browser": "Safari"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [110, 70, 85],
+          "products_added_to_cart": 5,
+          "cart_value": 250
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 40,
+          "form_fields_filled": 3,
+          "payment_method": "credit_card",
+          "error_messages": 1
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": false,
+          "unexpected_costs": true,
+          "security_concerns": false,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-02-02T10:30:00",
+          "special_promotions": false,
+          "competitor_promotions": true
+        },
+        "customer_feedback": "Decided not to proceed due to unexpected costs. Will explore other options.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Unexpected Costs"
+        }
+      },
+      {
+        "user": {
+          "id": "julia_anderson",
+          "age": 35,
+          "gender": "female",
+          "location": "Seattle"
+        },
+        "session": {
+          "id": "session567",
+          "device_type": "desktop",
+          "browser": "Firefox"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [100, 55, 70],
+          "products_added_to_cart": 1,
+          "cart_value": 50
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 35,
+          "form_fields_filled": 2,
+          "payment_method": "paypal",
+          "error_messages": 0
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": true,
+          "unexpected_costs": false,
+          "security_concerns": false,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-02-02T14:00:00",
+          "special_promotions": false,
+          "competitor_promotions": true
+        },
+        "customer_feedback": "Process seemed confusing. Considering other options.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Confusing Process"
+        }
+      },
+      {
+        "user": {
+          "id": "daniel_miller",
+          "age": 28,
+          "gender": "male",
+          "location": "Boston"
+        },
+        "session": {
+          "id": "session901",
+          "device_type": "tablet",
+          "browser": "Safari"
+        },
+        "website_interaction": {
+          "pages_viewed": ["homepage", "product_page", "cart"],
+          "time_spent_on_each_page": [120, 65, 90],
+          "products_added_to_cart": 2,
+          "cart_value": 120
+        },
+        "payment_page_interaction": {
+          "time_spent_on_page": 35,
+          "form_fields_filled": 2,
+          "payment_method": "debit_card",
+          "error_messages": 0
+        },
+        "reasons_for_abandonment": {
+          "technical_issues": false,
+          "confusing_process": false,
+          "unexpected_costs": false,
+          "security_concerns": false,
+          "payment_method_issues": false
+        },
+        "external_factors": {
+          "date_time": "2024-02-02T15:30:00",
+          "special_promotions": true,
+          "competitor_promotions": false
+        },
+        "customer_feedback": "Smooth process, but found a better deal. Will explore other options.",
+        "outcome": {
+          "completed_purchase": false,
+          "reason_not_completed": "Competitor Promotion"
+        }
+      },
+  ]
+  

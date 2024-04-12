@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../../components/Navbar/Navbar';
 import Hero from '../../components/Hero/Hero';
 import FooterSection from '../../components/FooterSection/FooterSection';
 import TestimonialSection from '../../components/TestimonialSection/TestimonialSection';
@@ -9,11 +8,7 @@ import WhyChooseUsSection from '../../components/Feature/Feature';
 function Services() {
   return (
     <>
-      {/* Navbar Component */}
-      {/* Consider breaking this further if needed */}
-      <nav className="custom-navbar navbar navbar-expand-md navbar-dark bg-dark" aria-label="Furni navigation bar">
-          <Navbar />
-        </nav>
+      
 
       {/* Hero Section Component */}
       {/* Consider breaking this further if needed */}

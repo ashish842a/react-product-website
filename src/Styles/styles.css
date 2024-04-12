@@ -5,6 +5,13 @@
 * License: https://creativecommons.org/licenses/by/3.0/
 */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+
+::selection {
+  color: white;
+  background:#d1956f;
+}
+
 body {
   overflow-x: hidden;
   position: relative; }
@@ -43,7 +50,7 @@ a {
   -o-transition: .3s all ease;
   transition: .3s all ease;
   color: #2f2f2f;
-  text-decoration: underline; }
+  text-decoration: none; }
   a:hover {
     color: #2f2f2f;
     text-decoration: none; }
@@ -735,3 +742,43 @@ textarea {
     height: 50px;
     border-radius: 50%;
     background: rgba(59, 93, 80, 0.2); }
+
+
+
+    
+    /* CSS */
+    .button-13 {
+      background-color: #fff;
+      border: 1px solid #d5d9d9;
+      border-radius: 8px;
+      box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+      box-sizing: border-box;
+      color: #0f1111;
+      cursor: pointer;
+      display: inline-block;
+      /* font-family: "Amazon Ember",sans-serif; */
+      /* font-size: 13px; */
+      /* line-height: 29px; */
+      padding: 2px 13px ;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      /* user-select: none; */
+      /* -webkit-user-select: none; */
+      /* touch-action: manipulation; */
+      /* vertical-align: middle; */
+      /* width: 100px; */
+    }
+    
+    .button-13:hover {
+      /* background-color: #f7fafa; */
+      background-color: #b2bec3;
+    }
+    
+    .button-13:focus {
+      /* border-color: #008296; */
+      box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+      outline: 0;
+    }
+
+    

@@ -8,19 +8,13 @@ import PopularProduct from '../../components/PopularProduct/PopularProduct';
 import TestimonialSection from '../../components/TestimonialSection/TestimonialSection';
 import BlogSection from '../../components/BlogSection/BlogSection';
 import FooterSection from '../../components/FooterSection/FooterSection';
-import Navbar from '../../components/Navbar/Navbar';
 import WhyChooseSection from '../../components/WhyChooseSection/WhyChooseSection';
 
 
 const Home = () => {
   return (
     <>
-      {/* Start Header/Navigation */}
-      <nav className="custom-navbar navbar navbar-expand-md navbar-dark bg-dark" aria-label="Furni navigation bar">
-       <Navbar />
-      </nav>
-      {/* End Header/Navigation */}
-
+     
       {/* Start Hero Section */}
       <div className="hero">
         <Hero />

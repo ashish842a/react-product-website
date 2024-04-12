@@ -1,13 +1,15 @@
 import React from 'react';
-import ContactForm from './ContactForm'; // assuming ContactForm is in a separate file
 
 const ContactSection = () => {
   return (
     <div className="untree_co-section">
       <div className="container">
+
         <div className="block">
           <div className="row justify-content-center">
+
             <div className="col-md-8 col-lg-8 pb-4">
+
               <div className="row mb-5">
                 {/* Address */}
                 <div className="col-lg-4">
@@ -52,9 +54,32 @@ const ContactSection = () => {
                 </div>
               </div>
 
-              {/* Replace existing form with ContactForm */}
-              <ContactForm />
-              
+              {/* Contact Form */}
+              <form>
+                <div className="row">
+                  <div className="col-6">
+                    <div className="form-group">
+                      <label className="text-black" htmlFor="fname">First name</label>
+                      <input type="text" className="form-control" id="fname" />
+                    </div>
+                  </div>
+                  <div className="col-6">
+                    <div className="form-group">
+                      <label className="text-black" htmlFor="lname">Last name</label>
+                      <input type="text" className="form-control" id="lname" />
+                    </div>
+                  </div>
+                </div>
+                <div className="form-group">
+                  <label className="text-black" htmlFor="email">Email address</label>
+                  <input type="email" className="form-control" id="email" />
+                </div>
+                <div className="form-group mb-5">
+                  <label className="text-black" htmlFor="message">Message</label>
+                  <textarea name="" className="form-control" id="message" cols="30" rows="5"></textarea>
+                </div>
+                <button type="submit" className="btn btn-primary-hover-outline">Send Message</button>
+              </form>
             </div>
           </div>
         </div>

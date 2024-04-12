@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../../components/Navbar/Navbar';
 import Hero from '../../components/Hero/Hero';
 import TestimonialSection from '../../components/TestimonialSection/TestimonialSection';
 import FooterSection from '../../components/FooterSection/FooterSection';
@@ -9,11 +8,7 @@ import BlogDataSection from '../../components/BlogDataSection/BlogDataSection';
 const BlogData = () => {
   return (
     <>
-        <nav className="custom-navbar navbar navbar-expand-md navbar-dark bg-dark" aria-label="Furni navigation bar">
-          <Navbar />
-        </nav>
-        {/* End Header/Navigation */}
-
+       
         {/* Start Hero Section */}
         <div className="hero">
          <Hero />

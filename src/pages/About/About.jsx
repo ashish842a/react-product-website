@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from '../../components/Navbar/Navbar';
-
 import WhyChooseSection from '../../components/WhyChooseSection/WhyChooseSection';
 import Hero from '../../components/Hero/Hero';
 import TeamSection from '../../components/TeamSection/TeamSection';
@@ -11,12 +9,7 @@ import FooterSection from '../../components/FooterSection/FooterSection';
 const About = () => {
   return (
     <>
-     {/* Start Header/Navigation */}
-     <nav className="custom-navbar navbar navbar-expand-md navbar-dark bg-dark" aria-label="Furni navigation bar">
-          <Navbar />
-        </nav>
-        {/* End Header/Navigation */}
-
+     
         {/* Start Hero Section */}
         <div className="hero">
          <Hero />

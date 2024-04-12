@@ -1,6 +1,6 @@
 import React from 'react';
 import couchImage from '../../images/couch.png';
-
+// import homeImage from '../../public/images/electrician_person.png'
 function Hero() {
   return (
     <div className="hero">
